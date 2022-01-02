@@ -1,0 +1,114 @@
+{
+	"name": "Election 2016 - Trump / Pence",
+	"candidates": [{
+		"name": "Trump",
+		"vice": "Pence",
+		"color": "#ff0000"
+	}, {
+		"name": "Hillary",
+		"vice": "man",
+		"color": "#0000ff"
+	}, {
+		"name": "Larry",
+		"vice": "other",
+		"color": "#00ff00"
+	}],
+	"intro": "Welcome to 2016 Mr Trump! You can win this!",
+	"states": {
+		"al": 0, "ak": 0, "az": 0,
+		"ar": 0, "ca": 0, "co": 0,
+		"ct": 0, "de": 0, "dc": 0,
+		"fl": 0, "ga": 0, "hi": 0,
+		"id": 0, "il": 0, "in": 0,
+		"ia": 0, "ks": 0, "ky": 0,
+		"la": 0, "me": 0, "md": 0,
+		"ma": 0, "mi": 0, "mn": 0,
+		"ms": 0, "mo": 0, "mt": 0,
+		"ne": 0, "nv": 0, "nh": 0,
+		"nj": 0, "nm": 0, "ny": 0,
+		"nc": 0, "nd": 0, "oh": 0,
+		"ok": 0, "or": 0, "pa": 0,
+		"ri": 0, "sc": 0, "sd": 0,
+		"tn": 0, "tx": 0, "ut": 0,
+		"vt": 0, "va": 0, "wa": 0,
+		"wv": 0, "wi": 0, "wy": 0
+	},
+	"events": [{
+		"type": "choice",
+		"prompt": {
+			"text": "A cat is next to a volcano and needs to be saved. What do YOU do?",
+			"images": ["candidate", "lava"],
+			"subtext": "the cat is very cute and needs your help. it is completely helpless and cant run from the volcano!"
+		},
+		"answers": [{
+			"text": "help it",
+			"bonus": {
+				"al": 1, "ak": 1, "az": 1,
+				"ar": 1, "ca": 1, "co": 1,
+				"ct": 1, "de": 1, "dc": 1,
+				"fl": 1, "ga": 1, "hi": 1,
+				"id": 1, "il": 1, "in": 1,
+				"ia": 1, "ks": 1, "ky": 1,
+				"la": 1, "me": 1, "md": 1,
+				"ma": 1, "mi": 1, "mn": 1,
+				"ms": 1, "mo": 1, "mt": 1,
+				"ne": 1, "nv": 1, "nh": 1,
+				"nj": 1, "nm": 1, "ny": 1,
+				"nc": 1, "nd": 1, "oh": 1,
+				"ok": 1, "or": 1, "pa": 1,
+				"ri": 1, "sc": 1, "sd": 1,
+				"tn": 1, "tx": 1, "ut": 1,
+				"vt": 1, "va": 1, "wa": 1,
+				"wv": 1, "wi": 1, "wy": 1
+			},
+			"results": {
+				"al": 1, "ak": 0, "az": 0,
+				"ar": 0, "ca": 0, "co": 0,
+				"ct": 0, "de": 1, "dc": 0,
+				"fl": 0, "ga": 0, "hi": 0,
+				"id": 0, "il": 0, "in": 0,
+				"ia": 0, "ks": 0, "ky": 0,
+				"la": 0, "me": 0, "md": 0,
+				"ma": 0, "mi": 0, "mn": 0,
+				"ms": 0, "mo": 0, "mt": 0,
+				"ne": 0, "nv": 0, "nh": 0,
+				"nj": 0, "nm": 0, "ny": 0,
+				"nc": 0, "nd": 0, "oh": 0,
+				"ok": 0, "or": 0, "pa": 0,
+				"ri": 0, "sc": 0, "sd": 0,
+				"tn": 0, "tx": 0, "ut": 0,
+				"vt": 0, "va": 0, "wa": 0,
+				"wv": 0, "wi": 0, "wy": 0
+			}
+		}, {
+			"text": "don't help it"
+		}]
+	}, {
+		"type": "choice",
+		"prompt": {
+			"text": "A volcanic eruption has occured! What do you do?",
+			"images": ["lava"],
+			"subtext": "this is sub text"
+		},
+		"answers": [{
+			"text": "nothingggg"
+		}, {
+			"text": "I will fund more FEMA"
+		}]
+	}, {
+		"type": "no-choice",
+		"prompt": "EMERGENCY!!!!",
+		"image": "lava",
+		"subtext": "epic stuff"
+	}],
+	"images": {
+		"candidate": {
+			"src": "https://cdn.imgbin.com/14/20/20/imgbin-kitten-cat-kitten-free-orange-tabby-cat-illustration-CFLdYZHjhu22hSy3vYBa14KBi.jpg",
+			"width": 200
+		},
+		"lava": {
+			"src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Mayon_Volcano_Eruption_4.jpg",
+			"width": 200
+		}
+	}
+}
